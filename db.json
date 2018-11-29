@@ -1,0 +1,18 @@
+{
+  "tweets": [
+    {
+      "id": 2,
+      "name": "Dennis Rodman",
+      "email": "spiderMan@aol.com",
+      "tweet": "I love webs",
+      "likes": 8
+    },
+    {
+      "name": "Dave Chappele",
+      "email": "Dave@aol.com",
+      "tweet": "I'm really funny",
+      "likes": 2,
+      "id": 3
+    }
+  ]
+}

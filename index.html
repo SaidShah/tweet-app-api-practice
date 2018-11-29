@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tweeter</title>
+  </head>
+  <body>
+    <div>
+      <h3>Create or Edit tweet</h3>
+      <form data-id="" id="create-update">
+      <label for="name">Enter Name:</label>
+      <input type="text" name="name"><br><br>
+      <label for="email">Enter Email:</label>
+      <input type="text" name="email"><br><br>
+      <label for="tweet">Enter Tweet:</label>
+      <textarea name="tweet" rows="4" cols="30"></textarea><br><br>
+      <button type="submit" >Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Filter Tweets</h3>
+      <label for="filter">Enter text:</label>
+      <input type="text" name="filter" id="filter-input">
+      <h4>Filtering By: <span id="filter-by"></span></h4>
+    </div>
+    <hr><hr>
+    <div class="container">
+      <div id="show-tweets">
+      </div>
+    </div>
+  </body>
+  <script src="src/adapter.js"></script>
+  <script src="src/index.js"></script>
+</html>
